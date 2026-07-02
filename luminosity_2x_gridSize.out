@@ -1,0 +1,359 @@
+****************************************************** 
+* guineapig++ Version 1.2.2
+* Program written by Daniel Schulte at DESY and CERN 
+* object oriented by Guy Le Meur at LAL-Orsay 
+* contributions from C. Rimbault at LAL-Orsay 
+* B. Dalena, J. Esberg and J. Snuverink at CERN
+*
+* Compiled with FFTW:  FFTW3 
+**************************************************** 
+
+                                         
+ *********************************************************************** 
+ -------------  beam parameter 1 ------------ 
+             
+ energy : 5000 GeV ; particles : 3.72e+09
+  sigma_x  : 23.0547 nm ;  sigma_y : 0.606564 nm ; sigma_z : 44 micrometers 
+ emitt_x : 0.66 emitt_y : 0.02  (mm.mrad) 
+ beta_x : 7880 beta_y : 180 (micrometers) 
+ offset_x : 0 nm ; offset_y : 0 nm ; offset_z : 0 micrometers 
+ waist_x : 0 waist_y : 0 (micrometers) 
+ angle_x : 0 angle_y : 0 angle_phi : 0 (radians) 
+ type of distribution charge :  dist_x : 0 dist_z : 0
+ initial polarization (ONLY FOR bmt_precession = 1 and internally generated beam) : polar_x = 0 polar_y = 0 polar_z = 1
+                                         
+ *********************************************************************** 
+ -------------  beam parameter 2 ------------ 
+             
+ energy : 5000 GeV ; particles : 3.72e+09
+  sigma_x  : 23.0547 nm ;  sigma_y : 0.606564 nm ; sigma_z : 44 micrometers 
+ emitt_x : 0.66 emitt_y : 0.02  (mm.mrad) 
+ beta_x : 7880 beta_y : 180 (micrometers) 
+ offset_x : 0 nm ; offset_y : 0 nm ; offset_z : -0 micrometers 
+ waist_x : 0 waist_y : 0 (micrometers) 
+ angle_x : 0 angle_y : 0 angle_phi : 0 (radians) 
+ type of distribution charge :  dist_x : 0 dist_z : 0
+ initial polarization (ONLY FOR bmt_precession = 1 and internally generated beam) : polar_x = 0 polar_y = 0 polar_z = 1
+                                         
+ *********************************************************************** 
+ ------------- SWITCHES :  ------------ 
+             
+charge_sign = -1
+bmt_precession = 0
+ST_spin_flip = 0
+do_bds_spin_rotation = 0
+automatic_grid_sizing = 0
+integration_method = 2 force_symmetric = 0
+rndm_load = 1rndm_save = 1 rndm_seed = 1
+do_photons.1 = 1 do_photons.2 = 1
+write_photons = 0
+do_comp = 0 do_prod = 0
+electron_ratio = 0.2
+compt_x_min = 1 compt_emax = 100 GeV ; compt_scale = 1
+do_lumi = 1num_lumi = 100000 lumi_p = 1e-29
+do_cross = 0 do_isr = 0 do_espread = 0
+photon_ratio = 0.2
+do_hadrons = 0 store_hadrons = 0 hadron_ratio = 100000
+do_jets = 0 store_jets = 0
+do_pairs = 0 load_events = 0
+track_pairs = 0 pair_step = 1
+store_pairs = 0
+bhabha_scal = 1e-29 bhabha_ecmload = 500 GeV 
+do_muons = 0 track_muons = 0 store_muons = 0
+muon_ratio = 1 muon_scale = 1 muon_ecut = 0.105
+do_coherent = 1
+do_trident = 0
+emin = 0
+grids = 1
+pair_ecut = 0.005 GeV 
+pair_ratio = 1
+bhabha_ratio = 1
+pair_q2 = 2
+beam_pair = 0
+jet_ratio = 100000
+jet_ptmin = 2
+jet_pythia = 0
+jet_log = 1
+beam_size = 1 beam_size_scale = 1 ext_field = 0
+espread.1 = 0.003 which_espread.1 = 1 espread.2 = 0.003 which_espread.2 = 1
+f_rep = 50 n_b = 312
+do_edm4hep = 0
+                                         
+ *********************************************************************** 
+ ------------- grid parameters ------------ 
+             
+n_x = 110 n_y = 100
+n_z = 50 n_t = 1
+n_m.1 = 100000 n_m.2 = 100000
+cut_x = 138.328 nm ; cut_y = 3.63938 nm ; cut_z = 264 micrometers 
+
+ ...................................................... 
+ relative amount of interacting particles that were outside the grid during one time step : 
+beam 1 : miss = 0.5  beam 2 : miss = 0.714286
+ number of interacting part. that were outside the grid during one time step : 
+out.1=28633;out.2=28956;
+                                         
+ *********************************************************************** 
+ ------------- beam1 ------------ 
+             
+ ---------- particle beam : 
+slice 8 contains 2  coherent particles with -290.405 GeV 
+slice 10 contains 2  coherent particles with -139.115 GeV 
+slice 11 contains 14  coherent particles with -1460.52 GeV 
+slice 12 contains 38  coherent particles with 4270.81 GeV 
+slice 13 contains 66  coherent particles with -9701.65 GeV 
+slice 14 contains 96  coherent particles with 6944 GeV 
+slice 15 contains 178  coherent particles with 1248.66 GeV 
+slice 16 contains 250  coherent particles with 9413.63 GeV 
+slice 17 contains 398  coherent particles with 389.003 GeV 
+slice 18 contains 632  coherent particles with 27651.4 GeV 
+slice 19 contains 908  coherent particles with 25222.3 GeV 
+slice 20 contains 1166  coherent particles with 39479.1 GeV 
+slice 21 contains 1608  coherent particles with -19426.3 GeV 
+slice 22 contains 2110  coherent particles with 27553 GeV 
+slice 23 contains 2528  coherent particles with 22091 GeV 
+slice 24 contains 2814  coherent particles with -28232.4 GeV 
+slice 25 contains 3092  coherent particles with 65491.7 GeV 
+slice 26 contains 3118  coherent particles with 50753 GeV 
+slice 27 contains 2742  coherent particles with -53693.6 GeV 
+slice 28 contains 2536  coherent particles with -19102.6 GeV 
+slice 29 contains 1894  coherent particles with 29469.8 GeV 
+slice 30 contains 1566  coherent particles with 15443.7 GeV 
+slice 31 contains 1170  coherent particles with -25871.1 GeV 
+slice 32 contains 800  coherent particles with 27543.9 GeV 
+slice 33 contains 488  coherent particles with -29351.8 GeV 
+slice 34 contains 390  coherent particles with 2651.11 GeV 
+slice 35 contains 170  coherent particles with -20898 GeV 
+slice 36 contains 74  coherent particles with 9407.95 GeV 
+slice 37 contains 36  coherent particles with -4684.46 GeV 
+slice 38 contains 26  coherent particles with -6508.36 GeV 
+slice 39 contains 12  coherent particles with -4723.19 GeV 
+ total number of coherent particles is 30924 with 140941 GeV 
+ number of tracked macroparticles : 100000
+average energy loss of the beam particles (GeV) : de = 1453.21
+ ---photon statistics : 
+ initial : 
+ initial average photon energy (GeV) phot-e1 : 685.417
+ initial number of phot. per tracked macropart.1 : 2.18221
+ final : 
+ final average photon energy (GeV) phot-e1 : 603.527
+ final number of phot. per tracked macropart.1 : 2.02759
+
+phot-e1=603.527;n_phot1=2.02759;
+de1=1453.21;
+                                         
+ *********************************************************************** 
+ ------------- beam2 ------------ 
+             
+ ---------- particle beam : 
+slice 10 contains 10  coherent particles with 3659.83 GeV 
+slice 11 contains 10  coherent particles with -1302.93 GeV 
+slice 12 contains 16  coherent particles with -1234.75 GeV 
+slice 13 contains 52  coherent particles with 807.174 GeV 
+slice 14 contains 96  coherent particles with -1647.47 GeV 
+slice 15 contains 152  coherent particles with -1910.37 GeV 
+slice 16 contains 234  coherent particles with -95.9959 GeV 
+slice 17 contains 418  coherent particles with -26563.8 GeV 
+slice 18 contains 634  coherent particles with -43369.8 GeV 
+slice 19 contains 896  coherent particles with -14017.3 GeV 
+slice 20 contains 1186  coherent particles with -20829.5 GeV 
+slice 21 contains 1574  coherent particles with -22951 GeV 
+slice 22 contains 2156  coherent particles with 42203 GeV 
+slice 23 contains 2638  coherent particles with 58795.5 GeV 
+slice 24 contains 2958  coherent particles with 49243.7 GeV 
+slice 25 contains 3172  coherent particles with 118480 GeV 
+slice 26 contains 3034  coherent particles with 15633.4 GeV 
+slice 27 contains 2754  coherent particles with -29472.2 GeV 
+slice 28 contains 2488  coherent particles with 57021.6 GeV 
+slice 29 contains 2052  coherent particles with 57833.8 GeV 
+slice 30 contains 1578  coherent particles with -6246.3 GeV 
+slice 31 contains 1188  coherent particles with 4387.16 GeV 
+slice 32 contains 794  coherent particles with 7752.69 GeV 
+slice 33 contains 486  coherent particles with 9906.28 GeV 
+slice 34 contains 330  coherent particles with -19500.4 GeV 
+slice 35 contains 204  coherent particles with 3900.6 GeV 
+slice 36 contains 112  coherent particles with -6441.21 GeV 
+slice 37 contains 44  coherent particles with 17211.9 GeV 
+slice 38 contains 26  coherent particles with -269.348 GeV 
+slice 39 contains 14  coherent particles with -2648.64 GeV 
+slice 40 contains 2  coherent particles with 3305.24 GeV 
+slice 41 contains 4  coherent particles with 439.63 GeV 
+slice 43 contains 4  coherent particles with -838.187 GeV 
+ total number of coherent particles is 31316 with 251242 GeV 
+ number of tracked macroparticles : 100000
+average energy loss of the beam particles (GeV) : de = 1467.76
+ ---photon statistics : 
+ initial : 
+ initial average photon energy (GeV) phot-e2 : 687.425
+ initial number of phot. per tracked macropart.2 : 2.19861
+ final : 
+ final average photon energy (GeV) phot-e2 : 603.95
+ final number of phot. per tracked macropart.2 : 2.04203
+
+phot-e2=603.95;n_phot2=2.04203;
+de2=1467.76;
+                                         
+ *********************************************************************** 
+ ------------- coherent particles results ------------ 
+             
+coherent.sum=1.15766e+09;
+coherent.sumeng=2.04642e+12;
+coherent.upsmax=8.42891e-06;
+coherent.probmax=0.0965998;
+coherent.count=62240;
+coherent.total_energy=5.50113e+07;
+                                         
+ *********************************************************************** 
+ ------------- general results ------------ 
+             
+lumi_fine = 1.04872e+35 m**(-2) (from charge densities) 
+lumi_ee = 1.11171e+35 m**(-2) (from beam particles collisions)
+lumi_ee_high = 6.5374e+34 1/m2 (per bunch cross. above energy ecm_min)
+lumi_pp = 0 m**(-2) 
+lumi_eg = 8.66294e+34 m**(-2) (e - gamma) 
+lumi_ge = 8.60766e+34 m**(-2) ( gamma - e) 
+lumi_gg = 7.42174e+34 m**(-2) (gamma - gamma) 
+lumi_gg_high = 7.42174e+34 1/m2 (gamma - gamma, with c.o.m energy more than gg_cut) 
+lumi[0][0] = 2.69428e+37
+lumi[0][1] = 1.73336e+39
+lumi[0][2] = 1.32322e+39
+lumi[1][0] = 9.08019e+35
+lumi[1][1] = 2.60377e+37
+lumi[1][2] = 2.81987e+37
+lumi[2][0] = 2.85377e+37
+lumi[2][1] = 1.31426e+39
+lumi[2][2] = 1.29343e+39
+upsmax= 79.6954 (maximal value of the beamstrahlung paramater that occured) 
+E_cm = 7562.01 E_cm_var = 2833.34
+ ............................................... 
+ average and RMS angles (x or y) of the particles of each beam after the interaction (microradians) : 
+bpm_vx.1=0.87563;bpm_sig_vx.1=142.774;
+bpm_vy.1=-0.366696;bpm_sig_vy.1=66.78;
+bpm_vx.2=1.07732;bpm_sig_vx.2=142.912;
+bpm_vy.2=-0.129518;bpm_sig_vy.2=79.0279;
+ average and RMS angles (x or y) including coherent particles of each beam after the interaction (microradians) : 
+bpm_vx_coh.1=5.20901;
+bpm_vy_coh.1=-0.308756;
+bpm_vx_coh.2=6.26458;
+bpm_vy_coh.2=0.573275;
+ ............................................... 
+ minimal photon-photon center of mass energies for hadronic events (GeV) : 
+hadron_cut.1=2;hadron_cut.2=5;hadron_cut.3=10;
+ nb of hadronic events per bunch crossing due to the virtual photons in ee collisions : 
+hadrons_ee.1=0;hadrons_ee.2=0;hadrons_ee.3=0;
+ nb of hadronic evts per bx due to e-gamma collisions 
+hadrons_eg.1=0;hadrons_eg.2=0;hadrons_eg.3=0;
+ .. due to gamma-e collisions : 
+hadrons_ge.1=0;hadrons_ge.2=0;hadrons_ge.3=0;
+ ... due to gamma-gamma collisions : 
+hadrons_gg.1=0;hadrons_gg.2=0;hadrons_gg.3=0;
+ ... due to all types of collisions : 
+hadrons_sum.1=0;hadrons_sum.2=0;hadrons_sum.3=0;
+ ............................................... 
+
+lumi_ee=1.11171e+35;
+lumi_ee_high=6.5374e+34;
+step   lumi total   lumi peak 
+1  0  0
+2  0  0
+3  0  0
+4  0  0
+5  0  0
+6  0  0
+7  0  0
+8  0  0
+9  0  0
+10  0  0
+11  0  0
+12  0  0
+13  0  0
+14  0  0
+15  0  0
+16  0  0
+17  0  0
+18  0  0
+19  0  0
+20  0  0
+21  0  0
+22  1.88982e+29  1.88982e+29
+23  0  0
+24  0  0
+25  0  0
+26  5.66945e+29  5.66945e+29
+27  1.32287e+30  1.32287e+30
+28  3.77963e+30  3.77963e+30
+29  6.42538e+30  6.23639e+30
+30  7.74825e+30  7.55927e+30
+31  1.58745e+31  1.56855e+31
+32  2.58905e+31  2.57015e+31
+33  4.93242e+31  4.72454e+31
+34  8.35299e+31  8.18291e+31
+35  1.21137e+32  1.13389e+32
+36  2.0599e+32  1.90305e+32
+37  3.00292e+32  2.79315e+32
+38  4.72454e+32  4.25209e+32
+39  6.66727e+32  5.95481e+32
+40  9.13537e+32  7.97314e+32
+41  1.2658e+33  1.10422e+33
+42  1.73088e+33  1.4801e+33
+43  2.31351e+33  1.88471e+33
+44  2.98572e+33  2.36737e+33
+45  4.01964e+33  3.16979e+33
+46  5.20399e+33  3.99507e+33
+47  6.78765e+33  5.08417e+33
+48  7.92173e+33  5.6498e+33
+49  8.54896e+33  5.73843e+33
+50  8.71886e+33  5.49218e+33
+51  8.15418e+33  4.65159e+33
+52  7.81175e+33  4.24566e+33
+53  7.62182e+33  3.82952e+33
+54  6.82602e+33  3.20966e+33
+55  5.98826e+33  2.74212e+33
+56  5.2552e+33  2.24e+33
+57  4.45902e+33  1.73825e+33
+58  3.40639e+33  1.29982e+33
+59  2.71397e+33  9.22041e+32
+60  2.06954e+33  6.55199e+32
+61  1.48823e+33  4.91163e+32
+62  1.06264e+33  3.00103e+32
+63  6.68239e+32  1.88037e+32
+64  4.91163e+32  1.42492e+32
+65  3.36387e+32  7.38918e+31
+66  1.90116e+32  3.83633e+31
+67  1.11121e+32  2.0788e+31
+68  7.12461e+31  1.47406e+31
+69  3.45836e+31  6.42538e+30
+70  1.94651e+31  4.34658e+30
+71  1.17169e+31  2.26778e+30
+72  5.29149e+30  3.77963e+29
+73  1.51185e+30  1.88982e+29
+74  7.55927e+29  0
+75  3.77963e+29  0
+76  1.88982e+29  0
+77  0  0
+78  0  0
+79  1.88982e+29  0
+80  0  0
+81  0  0
+82  0  0
+83  0  0
+84  0  0
+85  0  0
+86  0  0
+87  0  0
+88  0  0
+89  0  0
+90  0  0
+91  0  0
+92  0  0
+93  0  0
+94  0  0
+95  0  0
+96  0  0
+97  0  0
+98  0  0
+99  0  0
+                                         
+ *********************************************************************** 
+ ------------- other information  ------------ 
+             

@@ -1,0 +1,19 @@
+$ACCELERATOR:: ffs10tev
+{energy=5000;particles=0.372;
+beta_x=7.88;beta_y=0.18;emitt_x=0.66;
+emitt_y=0.02;sigma_z=44.0;espread=0.003;dist_z=0;f_rep=50.0;
+offset_y.1=0;offset_y.2=0;
+offset_x.1=0;offset_x.2=0;
+n_b=312;waist_y=0;}
+
+
+$PARAMETERS:: xsuite_endpoint
+{n_x=110;n_y=100;n_z=50;
+n_t=1;n_m=100000;cut_x=3.0*sigma_x.1;
+cut_y=3.0*sigma_y.1;cut_z=3.0*sigma_z.1;
+force_symmetric=0;electron_ratio=0.2;do_photons=1;store_photons=0;
+ecm_min=8000.0;photon_ratio=0.2;do_hadrons=0;store_hadrons=0;
+do_coherent=1;grids=0;rndm_load=1;rndm_save=1;
+do_pairs=0;track_pairs=0;store_pairs=0;do_compt=0;load_beam=3;
+hist_ee_bins=1010;hist_ee_max=2.02*energy.1;charge_sign=-1.0;
+do_lumi=1;num_lumi=100000;}

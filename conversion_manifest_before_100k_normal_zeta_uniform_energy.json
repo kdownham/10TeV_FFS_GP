@@ -1,0 +1,27 @@
+{
+  "bunch_population_electrons": 23250000000.0,
+  "conversion": {
+    "angle": "x'=px/sqrt((1+delta)^2-px^2-py^2), likewise y', in urad",
+    "counter_beam": "identical endpoint ensemble with z mirrored to align GUINEA-PIG's reversed collision slices",
+    "energy": "sqrt((p0c*(1+delta))^2 + mass0^2) in GeV",
+    "ordering": "ascending GUINEA-PIG z",
+    "position": "x/y in m to um; z=-zeta in um"
+  },
+  "endpoint_rms": {
+    "delta": 0.0030019385631190375,
+    "x_m": 4.417267730797893e-08,
+    "xp_rad": 3.155501177105506e-06,
+    "y_m": 4.3221626512390995e-09,
+    "yp_rad": 3.358972223603936e-06,
+    "zeta_m": 7.61566314305164e-05
+  },
+  "macro_particle_weight_electrons": 232500.0,
+  "mass0_eV": 510998.95,
+  "p0c_eV": 5000000000000.0,
+  "source_file": "/home/keegan/Codex/XSuite/10TeV/ffs_10tev_tracking_100k_uniform_zeta_132um_quantum_sr_start_end.npz",
+  "source_particles": 100000,
+  "source_sha256": "aa7402314a1591917b210c75a22b79b6fdf08e8ee40db9921df56703b064540e",
+  "surviving_particles": 100000,
+  "tracking_mode": "quantum",
+  "tracking_rng_seed": 20260624
+}

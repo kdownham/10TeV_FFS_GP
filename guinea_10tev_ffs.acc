@@ -1,0 +1,16 @@
+$ACCELERATOR:: ffs10tev
+{energy=4999.54998784;particles=2.325;
+beta_x=7.88371497873;beta_y=0.18019910366;emitt_x=0.660;emitt_y=0.020;
+sigma_z=76.1566314305;espread=0.00300193856312;
+dist_x=0;dist_z=0;f_rep=1.0;n_b=1;waist_x=0;waist_y=0;
+offset_x.1=0;offset_y.1=0;offset_x.2=0;offset_y.2=0;}
+
+$PARAMETERS:: xsuite_endpoint
+{n_x=32;n_y=32;n_z=32;n_t=1;n_m=100000;
+automatic_grid_sizing=0;cuts_from_loaded_beam=1;
+cut_x_factor=5.0;cut_y_factor=5.0;cut_z_factor=5.0;
+force_symmetric=0;charge_sign=-1.0;load_beam=3;electron_ratio=1.0;
+do_photons=0;store_photons=0;do_coherent=0;do_pairs=0;track_pairs=0;store_pairs=0;
+do_compt=0;do_hadrons=0;store_hadrons=0;do_muons=0;track_muons=0;store_muons=0;
+do_lumi=1;num_lumi=100000;ecm_min=9000.0;hist_ee_bins=1000;hist_ee_max=11000.0;
+grids=7;rndm_load=0;rndm_save=0;rndm_seed=20260624;store_beam=0;}
