@@ -19,4 +19,5 @@ contained in a different directory [2]. The following sections describe the cont
 ---
 ## References
 [1] https://arxiv.org/abs/2503.20214
+
 [2] https://github.com/kdownham/AI_Accelerator_Design
